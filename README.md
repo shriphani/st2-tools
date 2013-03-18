@@ -8,19 +8,19 @@ Files Thus Far:
 
 <ul>
   <li>
-	python-cmdline-args.sublime-snippet
+	<code>python-cmdline-args.sublime-snippet</code>
     
     Imports argparse and writes boilerplate code for creating cmdline args
   </li>
 
   <li>
-	python-safe-mkdir.sublime-snippet
+	<code>python-safe-mkdir.sublime-snippet</code>
 
     Race-condition-free mechanism for creating a directory in Python
   </li>
 
   <li>
-	latex-three-column-summary.sublime-snippet
+	<code>latex-three-column-summary.sublime-snippet</code>
 
     Three column latex theme for creating notes for CMU classes.
   </li>
