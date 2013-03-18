@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[a4paper]{article}
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage[charter,greekuppercase=italicized]{mathdesign}
+\usepackage{isomath}
+
+\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\setbox0\hbox{\$#1#2\$}%
+\copy0\kern-\wd0\mkern4mu\box0}} 
+
+\begin{document}
+
+\title{Summary of \textbf{}}
+\author{}
+\date{}
+\maketitle
+\begin{multicols}{3}
+
+\end{mutlicols}
+\end{document}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmu-three-column-summary</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>

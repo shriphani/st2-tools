@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+def safe_mkdir(path):
+	try:
+		os.makedirs(path)
+	except OSError as exception:
+		if exception.errno != errno.EEXIST:
+			raise
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>mkdir</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
